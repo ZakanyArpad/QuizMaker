@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.VBox?>
+
+<VBox fx:id="mainMenu" alignment="CENTER" minHeight="960.0" minWidth="1280.0" prefHeight="200.0" prefWidth="100.0" stylesheets="@../../../style/mainMenu.css" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.mycompany.quizmaker001.MenuController">
+   <children>
+      <Button mnemonicParsing="false" onAction="#myQuizzes" text="Saját Kvízjeim">
+         <VBox.margin>
+            <Insets bottom="50.0" />
+         </VBox.margin>
+      </Button>
+      <Button mnemonicParsing="false" text="Profilom">
+         <VBox.margin>
+            <Insets bottom="50.0" />
+         </VBox.margin>
+      </Button>
+      <Button mnemonicParsing="false" text="Hibajelentés" />
+   </children>
+</VBox>

@@ -1,0 +1,21 @@
+.correct-answer {
+    -fx-background-color: #4CAF50; /* zöld */
+    -fx-text-fill: white;
+}
+
+.wrong-answer {
+    -fx-background-color: #f44336; /* piros */
+    -fx-text-fill: white;
+}
+.root {
+    -fx-background-color: #ffffff;
+}
+
+.label {
+    -fx-font-size: 16px;
+    -fx-text-fill: #333;
+}
+
+.button:hover {
+    -fx-background-color: #d9d9d9;
+}
